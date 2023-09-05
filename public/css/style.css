@@ -1,0 +1,220 @@
+#root{
+    padding: 0;
+}
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 5px 5px 5px #272829 ;
+}
+
+.homepage{
+    padding: 0;
+    background-color: #FFF0F5;
+}
+
+.techpage{
+    height: 100vh;
+    padding: 0;
+    padding-top: 2rem;
+}
+
+.homepage-holder{
+   max-width: 80rem;
+   padding-top: 12rem;
+}
+
+.tech-stack{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10rem;
+    margin-top:5rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.certificate-badges{
+    margin-top: 1rem;
+}
+
+.tech-stack .tech{
+    display:flex;
+    border-width: 1px;
+    border-style:solid;
+    width:10rem;
+    height:10rem;
+    border-radius: 30%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px #810CA8;
+}
+
+.photo > img{
+    /* animation: animate 8s ease-in-out infinite; */
+    /* background-image: url("/dheeraj.png"); */
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #2d2e32;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    /* position: relative; */
+    /* transition: all 1s ease-in-out; */
+}
+
+
+*:focus {
+    outline: none !important;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  @media screen and (min-width: 800px) {
+    
+    .homepage{
+        height: 100vh;
+    }
+
+    .nav-button {
+      background-color: white;
+      border-radius: 2rem;
+      height: 2rem;
+      width: 6.8rem;
+      border: 0.1rem solid blue;
+      font-family: 'Noto Sans', sans-serif;
+      color: #596e79;
+      font-weight: bold;
+      padding:0px 20px 0px 20px;
+    }
+  
+    .nav-button:focus {
+      outline: none;
+    }
+  
+    .nav-button:hover {
+      background-color: #6a2c70;
+      color: white;
+      border-color: #6a2c70;
+    }
+  
+    .hover-button {
+      width: 60%;
+      height: 40px;
+      margin: 10px auto;
+      justify-content: center;
+      display: block;
+      color: #fff;
+      background: #e79c2a;
+      font-size: 1em;
+      font-weight: bold;
+      margin-top: 20px;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      transition: .2s ease-in;
+      cursor: pointer;
+    }
+  
+    .hover-button:hover {
+      background: #6d44b8;
+    }
+
+    .homepage-container{
+        display: flex;
+        gap:5rem
+        /* grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr; */
+    }
+
+    .intro{
+        flex:7;
+    }
+
+    .photo{
+        flex:3
+    }
+
+  }
+  
+  @media screen and (max-width: 800px) {
+
+    .homepage{
+        height: 125vh;
+    }
+
+    .nav-button {
+      background-color: white;
+      border-radius: 2rem;
+      height: 3rem;
+      max-width: 20rem;
+      font-size: 1.4rem;
+      border: 0.1rem solid blue;
+      font-family: 'Noto Sans', sans-serif;
+      color: #596e79;
+      font-weight: bold;
+      padding:0px 20px 0px 20px;
+    }
+  
+    .nav-button:focus {
+      outline: none;
+    }
+  
+    .nav-button:hover {
+      background-color: #6a2c70;
+      color: white;
+      border-color: #6a2c70;
+    }
+  
+    .hover-button {
+      width: 65%;
+      height: 50px;
+      margin: 10px auto;
+      justify-content: center;
+      display: block;
+      color: #fff;
+      background: #e79c2a;
+      font-size: 1.4em;
+      font-weight: bold;
+      margin-top: 20px;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      transition: .2s ease-in;
+      cursor: pointer;
+    }
+  
+    .hover-button:hover {
+      background: #6d44b8;
+    }
+
+    .homepage-container{
+        display: flex;
+        flex-wrap: wrap;
+        /* grid-template-columns: 1fr;
+        grid-template-rows: 1fr; */
+    }
+
+    .intro{
+        order:1;
+    }
+
+  }
+
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
