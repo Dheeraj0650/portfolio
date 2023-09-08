@@ -4,7 +4,7 @@ function Homepage(){
     return (<div className="container-fluid homepage-holder">
                 <div className="container-fluid homepage-container">
                     <div className="conatainer-fluid intro">
-                        <div style={{fontFamily: "'Poppins', sans-serif", fontSize:"5rem"}}>Developer</div>
+                        <div style={{fontFamily: "'Poppins', sans-serif", fontSize:"4rem"}}>Developer</div>
                         <div style={{fontFamily: "'Mulish', sans-serif", fontSize:"1.2rem", marginLeft:"0.3rem"}}><p>A Passionate Software Development Engineer in Cloud, Full Stack Developer and Block-Chain Developer</p></div>
                         <div>
                             <i class="fa-brands fa-github fa-2x"></i>

@@ -5,8 +5,8 @@ function Aboutmepage(){
         <>
             <div style={{fontFamily: "'Poppins', sans-serif", fontSize:"2.5rem", marginLeft:"2rem", color:"#18122B", textAlign:"center"}}>About me</div>
             <div className="container-fluid aboutme-holder">
-                <div className="computer-logo">
-                    <img src="programming.svg" width="600"></img>
+                <div className="computer-logo" style={{textAlign:"center"}}>
+                    <img src="programming.svg" style={{width:"70%"}}></img>
                 </div>
                 <div className="aboutme-content">
                     <div className="aboutme-card">
