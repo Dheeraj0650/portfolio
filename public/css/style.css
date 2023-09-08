@@ -9,18 +9,21 @@
 
 .homepage{
     padding: 0;
-    background-color: #FFF0F5;
+    background-color: #FFF4F4;
 }
 
 .techpage{
-    height: 100vh;
+    /* height: 80vh; */
     padding: 0;
     padding-top: 2rem;
+    margin-top: 4rem;
+    background-color: #FFF4F4;
+    padding-bottom: 4rem;
 }
 
 .homepage-holder{
    max-width: 80rem;
-   padding-top: 12rem;
+   padding-top: 15%;
 }
 
 .tech-stack{
@@ -40,8 +43,8 @@
     display:flex;
     border-width: 1px;
     border-style:solid;
-    width:10rem;
-    height:10rem;
+    width:8rem;
+    height:8rem;
     border-radius: 30%;
     flex-wrap: wrap;
     align-content: center;
@@ -62,6 +65,215 @@
     /* transition: all 1s ease-in-out; */
 }
 
+.aboutme{
+  margin-top: 2rem;
+  font-family: "'Mulish', sans-serif"
+}
+
+
+.aboutme-holder{
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap:3rem
+}
+
+.aboutme-content{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.aboutme-card{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap:2rem;
+}
+
+.experience, .education{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.1rem solid black;
+  padding: 2rem;
+  min-width: 30rem;
+  min-height: 10rem;
+  border-radius: 2rem;
+  background-color: #21209C;
+  color:#F1F1F1;
+  box-shadow: 5px 5px 5px black ;
+}
+
+.aboutme-intro{
+  max-width: 60rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.aboutme-intro p{
+  margin-left: 5rem;
+}
+
+.projects, .projects-holder{
+  margin-top: 4rem;
+}
+
+.projects-holder{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  max-width: 70%;
+}
+
+
+.projects-left .projects-details{
+  border: 0.1rem solid black;
+  padding:1rem;
+  border-radius: 2rem;
+}
+
+.projects-left .projects-view{
+  border: 0.1rem solid black;
+  padding:1rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+}
+
+.projects-right .projects-details{
+  border: 0.1rem solid black;
+  padding:1rem;
+  border-radius: 2rem;
+}
+
+.projects-right .projects-view{
+  border: 0.1rem solid black;
+  padding:1rem;
+  border-radius: 2rem;
+  flex-direction: column;
+  gap:1rem;
+}
+
+.projects-right .projects-view button, .projects-left .projects-view button{
+  min-width: 8rem;
+}
+
+.projects-left img{
+  width:25rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.projects-right img{
+  width:25rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.projects-left .projects-details .info, .projects-right .projects-details .info{
+  text-align:justify;
+}
+
+.projects-left .projects-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex: 9;
+  border: 0.1rem solid black;
+  padding:1rem;
+}
+
+.projects-left .projects-view{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex: 1;
+  border: 0.1rem solid black;
+  padding:1rem;
+}
+
+
+.projects-right .projects-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex: 9;
+  order:1;
+  border: 0.1rem solid black;
+  padding:1rem;
+}
+
+.projects-right .projects-view{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex: 1;
+  border: 0.1rem solid black;
+  padding:1rem;
+}
+
+.contacts, .contactpage-holder{
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: black;
+  color: white;
+}
+
+.contactpage-holder{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.contactpage-holder .location{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 10rem;
+}
+
+.achievementpage-holder, .achievements{
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  background-color: #FFF4F4;
+
+}
+
+.achievementpage-holder{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.achievementpage-image img{
+  width:30rem;
+}
+
+.achievementpage-image{
+  text-align: center;
+}
 
 *:focus {
     outline: none !important;
@@ -69,6 +281,13 @@
   
   html {
     scroll-behavior: smooth;
+  }
+
+  @media screen and (min-width:1500px) {
+    .aboutme{
+      height: 70vh;
+      margin-top: 10%;
+    }
   }
   
   @media screen and (min-width: 800px) {
@@ -123,17 +342,49 @@
 
     .homepage-container{
         display: flex;
-        gap:5rem
+        gap:5rem;
         /* grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr; */
     }
 
     .intro{
-        flex:7;
+        flex:7;   
     }
 
     .photo{
         flex:3
+    }
+
+    .projects-left{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
+      gap:2rem;
+    }
+
+    .projects-right{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
+      gap:2rem;
+    }
+
+    .achievementpage-card-1{
+      display: flex;
+      flex: wrap;
+      justify-content: center;
+      align-content: center;
+      text-align: justify;
+    }
+    
+    .achievementpage-card{
+      display: flex;
+      flex: wrap;
+      justify-content: center;
+      align-content: center;
+      text-align: justify;
     }
 
   }
@@ -192,13 +443,51 @@
     .homepage-container{
         display: flex;
         flex-wrap: wrap;
-        /* grid-template-columns: 1fr;
-        grid-template-rows: 1fr; */
     }
 
     .intro{
         order:1;
     }
+
+    .intro div{
+      text-align: center;
+    }
+
+    .projects-right .projects-view{
+      margin-top: 1.5rem;
+      display: flex;
+      flex-direction: row;
+      gap:1rem;
+    }
+
+    .projects-left .projects-view{
+      margin-top: 1.5rem;
+      display: flex;
+      flex-direction: row;
+      gap:1rem;
+    }
+
+    .achievementpage-card-1{
+      display: flex;
+      flex: wrap;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: justify;
+    }
+    
+    .achievementpage-card{
+      display: flex;
+      flex: wrap;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: justify;
+    }
+
+    .achievementpage-image{
+      margin-bottom: 1rem;
+    }    
 
   }
 

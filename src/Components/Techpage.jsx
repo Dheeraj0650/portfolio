@@ -3,7 +3,7 @@ import React from "react";
 function Techpage(){
     return (
         <div className="container-fluid">
-            <span style={{fontFamily: "'Roboto', sans-serif", fontSize:"1.7rem", marginLeft:"2rem", color:"#18122B"}}>Technology Stack</span>
+            <div style={{fontFamily: "'Poppins', sans-serif", fontSize:"2.5rem", marginLeft:"2rem", color:"#18122B", textAlign:"center"}}>Technology Stack</div>
             <div className="tech-stack">
                 <div className="tech">
                     <div style={{textAlign:"center", fontFamily:"'Roboto', sans-serif"}}>AWS</div>           
