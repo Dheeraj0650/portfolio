@@ -134,7 +134,7 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  max-width: 70%;
+  max-width: 80%;
 }
 
 
@@ -514,3 +514,12 @@
     flex-direction: column;
 }
 
+.projects-details img{
+  width: 100%;
+  object-fit: contain;
+}
+
+.info{
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.2rem;
+}
