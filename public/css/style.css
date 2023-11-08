@@ -119,9 +119,9 @@
   text-align: center;
 }
 
-.aboutme-intro p {
+/* .aboutme-intro p {
   margin-left: 5rem;
-}
+} */
 
 .projects, .projects-holder {
   margin-top: 4rem;
@@ -283,10 +283,10 @@
   }
 
   @media screen and (min-width:2000px) {
-    .aboutme{
+    /* .aboutme{
       height: 70vh;
       margin-top: 10%;
-    }
+    } */
 
     .projects, .projects-holder{
       padding: 0 10vw 0 10vw;
@@ -316,69 +316,6 @@
   }
   
   @media screen and (min-width: 1000px) and (max-width: 2000px){
-    
-    .homepage{
-        height: 100vh;
-    }
-
-    .nav-button {
-      background-color: white;
-      border-radius: 2rem;
-      height: 2rem;
-      width: 6.8rem;
-      border: 0.1rem solid blue;
-      font-family: 'Noto Sans', sans-serif;
-      color: #596e79;
-      font-weight: bold;
-      padding:0px 20px 0px 20px;
-    }
-  
-    .nav-button:focus {
-      outline: none;
-    }
-  
-    .nav-button:hover {
-      background-color: #6a2c70;
-      color: white;
-      border-color: #6a2c70;
-    }
-  
-    .hover-button {
-      width: 60%;
-      height: 40px;
-      margin: 10px auto;
-      justify-content: center;
-      display: block;
-      color: #fff;
-      background: #e79c2a;
-      font-size: 1em;
-      font-weight: bold;
-      margin-top: 20px;
-      outline: none;
-      border: none;
-      border-radius: 5px;
-      transition: .2s ease-in;
-      cursor: pointer;
-    }
-  
-    .hover-button:hover {
-      background: #6d44b8;
-    }
-
-    .homepage-container{
-        display: flex;
-        gap:5rem;
-        /* grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr; */
-    }
-
-    .intro{
-        flex:7;   
-    }
-
-    .photo{
-        flex:3
-    }
 
     .projects-left{
       display: flex;
@@ -487,6 +424,7 @@
     .homepage-container{
         display: flex;
         flex-wrap: wrap;
+        padding-top: 2.5rem;
     }
 
     .intro{
@@ -545,8 +483,8 @@
       padding: 0 0 0 0;
     }
 
-    .achievementpage-info, .info{
-      font-size: 1.2rem;
+    .info{
+      font-size: 1rem;
     }
 
     .achievementpage-info{
@@ -554,10 +492,21 @@
     }
 
     .achievementpage-info span{
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
 
+    .achievementpage-image img{
+      max-width:100%;
+    }
   }
+
+.intro{
+    flex:7;   
+}
+
+.photo{
+    flex:3
+}
 
 .intro{
     display: flex;
@@ -585,3 +534,55 @@
   padding: 1rem;
 }
 
+.homepage-container{
+  display: flex;
+  gap:5rem;
+}
+
+.homepage{
+  height: 100vh;
+}
+
+.nav-button {
+background-color: white;
+border-radius: 2rem;
+height: 2rem;
+width: 6.8rem;
+border: 0.1rem solid blue;
+font-family: 'Noto Sans', sans-serif;
+color: #596e79;
+font-weight: bold;
+padding:0px 20px 0px 20px;
+}
+
+.nav-button:focus {
+outline: none;
+}
+
+.nav-button:hover {
+background-color: #6a2c70;
+color: white;
+border-color: #6a2c70;
+}
+
+.hover-button {
+width: 60%;
+height: 40px;
+margin: 10px auto;
+justify-content: center;
+display: block;
+color: #fff;
+background: #e79c2a;
+font-size: 1em;
+font-weight: bold;
+margin-top: 20px;
+outline: none;
+border: none;
+border-radius: 5px;
+transition: .2s ease-in;
+cursor: pointer;
+}
+
+.hover-button:hover {
+background: #6d44b8;
+}
