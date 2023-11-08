@@ -14,13 +14,19 @@ function Navbar(){
                         <a class="nav-link active" aria-current="page" href="#"><button type="button" className="nav-button">Home</button></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><button type="button" className="nav-button">About</button></a>
+                        <a class="nav-link" href="#aboutme"><button type="button" className="nav-button">About</button></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><button type="button" className="nav-button">Projects</button></a>
+                        <a class="nav-link" href="#techpage"><button type="button" className="nav-button">Skills</button></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><button type="button" className="nav-button">Contact</button></a>
+                        <a class="nav-link" href="#projects"><button type="button" className="nav-button">Projects</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#achievements"><button type="button" className="nav-button" style={{"width":"9rem"}}>Achievements</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts"><button type="button" className="nav-button">Contact</button></a>
                     </li>
                 </ul>
             </div>

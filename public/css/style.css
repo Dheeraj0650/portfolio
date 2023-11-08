@@ -267,7 +267,7 @@
 }
 
 .achievementpage-image img{
-  width:60%;
+  max-width:60%;
 }
 
 .achievementpage-image{
@@ -282,14 +282,40 @@
     scroll-behavior: smooth;
   }
 
-  @media screen and (min-width:1500px) {
+  @media screen and (min-width:2000px) {
     .aboutme{
       height: 70vh;
       margin-top: 10%;
     }
+
+    .projects, .projects-holder{
+      padding: 0 10vw 0 10vw;
+    }
+
+    .achievementpage-info, .info{
+      font-size: 1.4rem;
+    }
+
+    .achievementpage-info{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+    }
+
+    .achievementpage-info span{
+      font-size: 1.4rem;
+      padding: 3rem 25rem 0 25rem;
+      text-align: center;
+      line-height: 2;
+    }
+
+    .achievementpage-image img{
+      max-width:30%;
+    }
   }
   
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 1000px) and (max-width: 2000px){
     
     .homepage{
         height: 100vh;
@@ -386,9 +412,28 @@
       text-align: justify;
     }
 
+    .projects, .projects-holder{
+      padding: 0 2vw 0 2vw;
+    }
+
+    .achievementpage-info, .info{
+      font-size: 1.3rem;
+    }
+
+    .achievementpage-info{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+    }
+
+    .achievementpage-info span{
+      font-size: 1.2rem;
+    }
+
   }
   
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1000px) {
 
     .homepage{
         height: 125vh;
@@ -496,6 +541,22 @@
       gap:2rem;
     }
 
+    .projects, .projects-holder{
+      padding: 0 0 0 0;
+    }
+
+    .achievementpage-info, .info{
+      font-size: 1.2rem;
+    }
+
+    .achievementpage-info{
+      padding-top: 5%;
+    }
+
+    .achievementpage-info span{
+      font-size: 1.2rem;
+    }
+
   }
 
 .intro{
@@ -519,7 +580,8 @@
   object-fit: contain;
 }
 
-.info{
+.achievementpage-info, .info{
   font-family: 'Mulish', sans-serif;
-  font-size: 1.2rem;
+  padding: 1rem;
 }
+

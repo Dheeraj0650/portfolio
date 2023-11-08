@@ -15,19 +15,19 @@ function App() {
       <div className="container-fluid homepage">
         <Homepage></Homepage>
       </div>
-      <div className="container-fluid aboutme">
+      <div className="container-fluid aboutme" id="aboutme">
         <Aboutmepage></Aboutmepage>
       </div>
-      <div className="container-fluid techpage">
+      <div className="container-fluid techpage" id="techpage">
         <Techpage></Techpage>
       </div>
-      <div className="container-fluid projects">
+      <div className="container-fluid projects" id="projects">
         <Projectspage></Projectspage>
       </div>
-      <div className="container-fluid achievements">
+      <div className="container-fluid achievements" id="achievements">
         <Achievementpage></Achievementpage>
       </div>
-      <div className="container-fluid contacts">
+      <div className="container-fluid contacts" id="contacts">
         <Contactpage></Contactpage>
       </div>
     </div>
