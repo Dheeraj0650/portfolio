@@ -288,6 +288,10 @@
       margin-top: 10%;
     } */
 
+    .homepage{
+      height: 100vh;
+    }
+
     .projects, .projects-holder{
       padding: 0 10vw 0 10vw;
     }
@@ -316,6 +320,10 @@
   }
   
   @media screen and (min-width: 1000px) and (max-width: 2000px){
+
+    .homepage{
+       height: 100vh;
+    }
 
     .projects-left{
       display: flex;
@@ -373,7 +381,7 @@
   @media screen and (max-width: 1000px) {
 
     .homepage{
-        height: 125vh;
+      padding-bottom: 1rem;
     }
 
     .nav-button {
@@ -537,10 +545,6 @@
 .homepage-container{
   display: flex;
   gap:5rem;
-}
-
-.homepage{
-  height: 100vh;
 }
 
 .nav-button {
