@@ -7,6 +7,14 @@ function Achievementpage(){
             <div className="container-fluid achievementpage-holder">
                 <div className="container-fluid achievementpage-card-1">
                     <div className="container-fluid achievementpage-image">
+                        <img src="aws-2.png" alt="" />
+                    </div>
+                    <div className="container-fluid achievementpage-info">
+                        <span>I have successfully attained the AWS Certified Developer - Associate certification, demonstrating my comprehensive knowledge and understanding of core AWS services, utilization practices, and fundamental AWS architecture best practices. This certification validates my proficiency in developing, deploying, and debugging cloud-based applications using AWS. Achieving this certification has not only boosted my confidence but also enhanced my credibility in the field. With this recognition, I am well-equipped to contribute effectively to cloud-based projects, providing organizations with the assurance of possessing the right talent for a competitive advantage and ensuring stakeholder and customer satisfaction.</span>
+                    </div>
+                </div>
+                <div className="container-fluid achievementpage-card-1">
+                    <div className="container-fluid achievementpage-image">
                         <img src="aws-1.png" alt="" />
                     </div>
                     <div className="container-fluid achievementpage-info">
