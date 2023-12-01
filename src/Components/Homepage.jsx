@@ -11,6 +11,7 @@ function Homepage(){
                             <a href="https://linkedin.com/in/kottedheeraj" target="_blank" style={{color:"#0077B5"}}><i class="fa-brands fa-linkedin fa-2x" style={{marginLeft:"1rem"}}></i></a>
                         </div>
                         <div className="certificate-badges">
+                            <img src="aws-2.png" style={{width:"8rem"}}></img>
                             <img src="aws-1.png" style={{width:"8rem"}}></img>
                             <img src="hackerrank.png" style={{width:"10rem"}}></img>
                         </div>
