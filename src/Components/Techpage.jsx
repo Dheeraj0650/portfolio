@@ -22,8 +22,20 @@ function Techpage(){
                     <img src="jquery.png" alt="" style={{width:"90%"}}/>               
                 </div>
                 <div className=" tech"> 
-                    <div style={{textAlign:"center", fontFamily:"'Roboto', sans-serif"}}>C++</div>
-                    <img src="c++.png" alt="" style={{width:"90%"}}/>
+                    <div style={{textAlign:"center", fontFamily:"'Roboto', sans-serif"}}>Docker</div>
+                    <img src="docker.png" alt="" style={{width:"90%"}}/>
+                </div>
+                <div className=" tech"> 
+                    <div style={{textAlign:"center", fontFamily:"'Roboto', sans-serif"}}>Terraform</div>
+                    <img src="terraform.png" alt="" style={{width:"90%"}}/>
+                </div>
+                <div className=" tech"> 
+                    <div style={{textAlign:"center", fontFamily:"'Roboto', sans-serif"}}>Ansible</div>
+                    <img src="Ansible.png" alt="" style={{width:"90%"}}/>
+                </div>
+                <div className=" tech"> 
+                    <div style={{textAlign:"center", fontFamily:"'Roboto', sans-serif"}}>jenkins</div>
+                    <img src="jenkins.png" alt="" style={{width:"90%"}}/>
                 </div>
                 <div className=" tech">
                     <div style={{textAlign:"center", fontFamily:"'Roboto', sans-serif"}}>Java</div>

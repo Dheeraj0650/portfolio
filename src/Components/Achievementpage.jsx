@@ -21,6 +21,14 @@ function Achievementpage(){
                         <span>The AWS Certified Cloud Practitioner certification is a fundamental achievement that attests to my comprehensive grasp of the AWS Cloud environment, its services, and essential terminology. This certification marks a significant step in my professional journey, serving as a strong foundation for my transition into the world of cloud computing, even without prior IT or cloud experience. It also demonstrates my commitment to gaining a solid understanding of cloud technologies, making me well-equipped to contribute effectively to the fast-evolving landscape of cloud computing.</span>
                     </div>
                 </div>
+                <div className="container-fluid achievementpage-card-1">
+                    <div className="container-fluid achievementpage-image">
+                        <img src="aws-3.png" alt="" />
+                    </div>
+                    <div className="container-fluid achievementpage-info">
+                        <span>This introductory course is intended for students who seek an overall understanding of cloud computing concepts, independent of specific technical roles. It provides a detailed overview of cloud concepts, AWS core services, security, architecture, pricing, and support.</span>
+                    </div>
+                </div>
                 <div className="container-fluid achievementpage-card">
                     <div className="container-fluid achievementpage-image">
                         <img src="hackerrank.png" alt="" />
