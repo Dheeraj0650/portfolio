@@ -5,7 +5,18 @@ function Projectspage(){
         <div className="container-fluid" style={{display:"flex", flexDirection:"column", justifyContent:"center", alignContent:"center", alignItems:"center"}}>
             <div style={{fontFamily: "'Poppins', sans-serif", fontSize:"2.5rem", marginLeft:"2rem", color:"#18122B", textAlign:"center"}}>Projects</div>
             <div className="projects-holder">
-               <div className="projects-left">
+                <div className="projects-left">
+                    <div className="projects-details">
+                        <div style={{fontSize:"2rem", fontFamily: "'Poppins', sans-serif"}}>Alt Text App</div>
+                        <img src="alt-text.svg"></img>
+                        <div className="info"><p>The project was the development of the Alternative Text Tool, a web application aimed at enhancing the accessibility of course materials in Canvas LMS by automating the process of adding alternative text (alt text) to images. It involved identifying images without alt text, allowing users to input descriptive alt text, marking images as "decorative," flagging complex images for human review, and seamlessly integrating with Canvas LMS for publishing alt text back to course materials. My role in this group project was primarily focused on the backend development using Node.js, including setting up the API endpoints for image retrieval, completion, and pushing alt text to Canvas. I also worked on database integration with AWS RDS for storing course and image data. Additionally, I contributed to the workflow design, particularly the Review & Publish Page.</p><p>With this project, we accomplished the automation of alt text addition for thousands of images in Canvas courses, making educational content more inclusive and accessible. The system efficiently identified images without alt text, allowed user validation for alt text accuracy, and provided a seamless integration with Canvas LMS. The integration with Monday board using AWS Lambda functions improved our workflow, and the automatic daily reset of course assignments for users streamlined the process. Overall, the Alternative Text Tool significantly improved the accessibility of educational materials for all learners.</p></div>
+                    </div>
+                    <div className="projects-view">
+                        <button type="button" class="btn btn-primary">Live</button>
+                        <a href="https://github.com/usu-accessibility/AltTextApp" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fa-brands fa-github"></i> github</button></a>
+                    </div>
+               </div>
+               <div className="projects-right">
                     <div className="projects-details">
                         <div style={{fontSize:"2rem", fontFamily: "'Poppins', sans-serif"}}>Information Hub</div>
                         <img src="information-hub.svg"></img>
@@ -16,7 +27,7 @@ function Projectspage(){
                         <a href="https://github.com/Dheeraj0650/InformationHub" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fa-brands fa-github"></i> github</button></a>
                     </div>
                </div>
-               <div className="projects-right">
+               <div className="projects-left">
                     <div className="projects-details">
                         <div style={{fontSize:"2rem", fontFamily: "'Poppins', sans-serif"}}>Rapid update</div>
                         <img src="rapid-update.svg"></img>
@@ -27,7 +38,7 @@ function Projectspage(){
                         <a href="https://github.com/Dheeraj0650/Rapidupdate" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fa-brands fa-github"></i> github</button></a>
                     </div>
                </div>
-               <div className="projects-left">
+               <div className="projects-right">
                     <div className="projects-details">
                         <div style={{fontSize:"2rem", fontFamily: "'Poppins', sans-serif"}}>Monday Pope Tech Sync</div>
                         <img src="monday-pope-tech.svg"></img>
@@ -38,7 +49,7 @@ function Projectspage(){
                         <a href="https://github.com/Dheeraj0650/Monday-Popetech-Sync" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fa-brands fa-github"></i> github</button></a>
                     </div>
                </div>
-               <div className="projects-right">
+               <div className="projects-left">
                     <div className="projects-details">
                         <div style={{fontSize:"2rem", fontFamily: "'Poppins', sans-serif"}}>Monday Caption Check</div>
                         <img src="monday-caption-check.svg"></img>
@@ -47,17 +58,6 @@ function Projectspage(){
                     <div className="projects-view">
                         <button type="button" class="btn btn-primary">Live</button>
                         <a href="https://github.com/Dheeraj0650/Monday-Caption-Check" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fa-brands fa-github"></i> github</button></a>
-                    </div>
-               </div>
-               <div className="projects-left">
-                    <div className="projects-details">
-                        <div style={{fontSize:"2rem", fontFamily: "'Poppins', sans-serif"}}>Alt Text App</div>
-                        <img src="alt-text.svg"></img>
-                        <div className="info"><p>The project was the development of the Alternative Text Tool, a web application aimed at enhancing the accessibility of course materials in Canvas LMS by automating the process of adding alternative text (alt text) to images. It involved identifying images without alt text, allowing users to input descriptive alt text, marking images as "decorative," flagging complex images for human review, and seamlessly integrating with Canvas LMS for publishing alt text back to course materials. My role in this group project was primarily focused on the backend development using Node.js, including setting up the API endpoints for image retrieval, completion, and pushing alt text to Canvas. I also worked on database integration with AWS RDS for storing course and image data. Additionally, I contributed to the workflow design, particularly the Review & Publish Page.</p><p>With this project, we accomplished the automation of alt text addition for thousands of images in Canvas courses, making educational content more inclusive and accessible. The system efficiently identified images without alt text, allowed user validation for alt text accuracy, and provided a seamless integration with Canvas LMS. The integration with Monday board using AWS Lambda functions improved our workflow, and the automatic daily reset of course assignments for users streamlined the process. Overall, the Alternative Text Tool significantly improved the accessibility of educational materials for all learners.</p></div>
-                    </div>
-                    <div className="projects-view">
-                        <button type="button" class="btn btn-primary">Live</button>
-                        <a href="https://github.com/usu-accessibility/AltTextApp" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fa-brands fa-github"></i> github</button></a>
                     </div>
                </div>
                <div className="projects-right">
