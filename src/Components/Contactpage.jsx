@@ -14,7 +14,7 @@ function Contactpage(){
                             Location
                         </div>
                         <div style={{fontFamily: "'Mulish', sans-serif"}}>
-                            Logan, Utah
+                            Salt Lake City, Utah
                         </div>    
                     </div>
                 </div>
